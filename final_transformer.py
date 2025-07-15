@@ -1,7 +1,6 @@
-# -*- coding: utf-8 -*-
 """
 FULL_Final_Transformer.ipynb
-The entire code was carried out in Google-colab's notebook which was lateron converted to .py format.
+The entire code was carried out in Google-Colab's Notebook which was later on converted to .py format.
 
 """
 
