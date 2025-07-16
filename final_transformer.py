@@ -388,7 +388,7 @@ class ConfigParams:
     emb_dim: int = 256                # Model dimension d_model
     hidden_size: int = 256            # Same as emb_dim
     intermediate_size: int = 512      # FFN hidden layer size
-    num_attention_heads: int = 4      # Number of heads (d_model must be divisible by this)
+    num_attention_heads: int = 4      # Number of heads (emb_dim must be divisible by this)
     layer_norm_eps: float = 1e-6      # Layer norm epsilon
     attention_dropout: float = 0.1    # Dropout for attention weights
     vocab_size: int = 16000           # Typical size in original paper for WMT tasks
