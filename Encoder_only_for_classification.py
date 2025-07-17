@@ -21,7 +21,7 @@ from google.colab import drive
 # 📌 Mount Google Drive
 drive.mount('/content/drive')
 
-!git clone https://huggingface.co/datasets/AmaanP314/youtube-comment-sentiment
+#git clone https://huggingface.co/datasets/AmaanP314/youtube-comment-sentiment
 
 dataset = pd.read_csv('/content/youtube-comment-sentiment/youtube-comments-sentiment.csv')
 dataset = dataset[['VideoTitle', 'CommentText', 'Sentiment']]
